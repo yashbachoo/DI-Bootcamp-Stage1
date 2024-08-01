@@ -1,0 +1,27 @@
+#num2 {
+    color: blue;
+    font-family: "DejaVu", sans-serif;
+    font-size: 36px;
+}
+#num3 {
+    background-color: pink;
+    font-size: 24px;
+    font-family: "verdana", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+#num4 {
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "verdana", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+#number1 {
+   background-color: pink;
+   font-family: "verdana", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}

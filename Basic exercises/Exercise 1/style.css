@@ -1,0 +1,17 @@
+h1 {
+    background-color: red;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+p {
+    background-color: green;
+    text-decoration-color: white;
+    font-size: 18px;
+    color: white;
+}
+#x {
+    background-color: orange;
+    font-size: 18px;
+}
