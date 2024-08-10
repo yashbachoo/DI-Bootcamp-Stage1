@@ -1,6 +1,6 @@
 body {
     background-image: url(background2.jpeg);
-    background-size: 1700px 700px;
+    background-size: 1700px 600px;
     background-repeat: no-repeat;
 }
 
@@ -97,28 +97,28 @@ input:valid + .labelline{
     z-index: 1111;
 }
 .box {
-    box-sizing: border-box;
-    flex-direction: row;
     width: 25%;
-    height: 310px;
-    display: inline-flex;
+    height: 280px;
+    display: inline-block;
+    justify-content: flex-start;
     border-radius: 20px;
     margin-left: 5%;
     border: 2px solid black;
     padding: 10px;
-    
+    position: absolute;
+    bottom: 600px;
+    text-align: center;
+
 }
 .one {
     background: transparent;
+    position: relative;
 
 }
 .two {
     background: transparent;
+    position: relative;
 
-}
-.three {
-    background: transparent;
-}
 }
 .three {
     background: transparent;
