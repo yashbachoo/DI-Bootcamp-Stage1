@@ -1,14 +1,20 @@
 body {
-    background-image: url(background2.jpeg);
+    /* background-image: url(background2.jpeg); */
     background-size: 1700px 600px;
     background-repeat: no-repeat;
 }
 
+.welcome {
+    background-image: url(background2.jpeg);
+    padding: 100px 50px;
+
+}
+
 .head {
     background-color: white;
-    width: 1700px;
+    /* width: 1700px; */
     height: 60px;
-    margin-top: -20px;
+    /* margin-top: -20px; */
     margin-left: -8px;
 }
 #signin {
@@ -24,12 +30,13 @@ body {
 .main {
     color: aliceblue;
     text-align: center;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     font-size: 50px;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    margin-bottom: 10px;
 }
 .mail {
     font-size: 40px;
@@ -37,10 +44,10 @@ body {
 }
 .body{
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     justify-content: center;
     align-items: center;
-    padding-bottom: 700px;
+    /* padding-bottom: 700px; */
 
 }
 * {
@@ -105,25 +112,30 @@ input:valid + .labelline{
     margin-left: 5%;
     border: 2px solid black;
     padding: 10px;
-    position: absolute;
+    /* position: absolute; */
     bottom: 600px;
     text-align: center;
+    /* position: relative; */
 
 }
 .one {
     background: transparent;
-    position: relative;
 
 }
 .two {
     background: transparent;
-    position: relative;
+
 
 }
 .three {
     background: transparent;
-    position: relative;
+
 }
 .center {
     text-align: center;
+}
+
+
+section {
+    padding: 10px;
 }
