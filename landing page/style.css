@@ -1,0 +1,121 @@
+body {
+    background-image: url(background2.jpeg);
+    background-size: 1700px 700px;
+    background-repeat: no-repeat;
+}
+
+.head {
+    background-color: white;
+    width: 1700px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: -8px;
+}
+#signin {
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(91, 91, 211);
+    border-radius: 5px;
+    color: white;
+    margin-left: 90%;
+    margin-top: 1.8%;
+}
+.main {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.mail {
+    font-size: 40px;
+    background-color: blue;
+}
+.body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 700px;
+
+}
+* {
+    margin: 0px;
+    padding: 0%;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 680px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 10px;
+
+
+}
+.entryarea {
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+}
+input {
+    position: absolute;
+    width: 100%;
+    outline: none;
+    font-size: 2.2em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    border: solid 2px white;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.labelline {
+    position: absolute;
+    font-size: 1.6em;
+    color: white;
+    padding: 0 25px;
+    margin: 0 25px;
+    background: transparent;
+    transition: 0.2s ease;
+
+}
+input:focus + .labelline,
+input:valid + .labelline{
+    color: white;
+    height: 30px;
+    padding: 0 12px;
+    transform: translate(-15px, -16px) scale(0.88);
+    z-index: 1111;
+}
+.box {
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 25%;
+    height: 310px;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+.one {
+    background: transparent;
+
+}
+.two {
+    background: transparent;
+
+}
+.three {
+    background: transparent;
+}
