@@ -119,3 +119,11 @@ input:valid + .labelline{
 .three {
     background: transparent;
 }
+}
+.three {
+    background: transparent;
+    position: relative;
+}
+.center {
+    text-align: center;
+}
